@@ -11,19 +11,7 @@ angular.module('frontendApp')
     .controller('AdminCtrl', function ($scope, $timeout, Restangular, $mdToast, $rootScope) {
 
         var init = function () {
-            $scope.loadSuggestions();
-        };
-        $scope.loadSuggestions = function () {
-            console.log("In load suggestions");
-            $scope.suggestions = [];
-            var getSuggestions = Restangular.one('suggestion');
-            getSuggestions.get().then(function (response) {
-                $scope.suggestions = response.body;
 
-            }, function () {
-                console.log('error');
-
-            });
         };
 
 

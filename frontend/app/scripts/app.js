@@ -35,9 +35,9 @@ angular
         templateUrl: 'views/main.html',
         controller: 'AuthenticationCtrl'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+      .when('/user', {
+        templateUrl: 'views/userdashboard.html',
+        controller: 'UserCtrl'
       })
         .when('/admin', {
             templateUrl: 'views/admin.html',

@@ -87,8 +87,8 @@ angular.module('frontendApp')
 
         $scope.redirectToRole = function() {
 
-            if (sessionStorage.role == "user") {
-                $location.path('/about');
+            if (sessionStorage.role == "citizen") {
+                $location.path('/user');
             }
             else if (sessionStorage.role == "admin") {
                 $location.path('/admin');
