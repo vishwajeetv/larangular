@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'UserController@index');
 
 Route::post('user/login', 'UserController@login');
 

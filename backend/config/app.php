@@ -148,8 +148,7 @@ return [
         'Barryvdh\Cors\CorsServiceProvider',
         'Laracasts\Generators\GeneratorsServiceProvider',
         'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
-        'Barryvdh\DomPDF\ServiceProvider',
-	],
+      ],
 
 	/*
 	|--------------------------------------------------------------------------
@@ -196,7 +195,6 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
-        'PDF' => 'Barryvdh\DomPDF\Facade',
 
 	],
 
