@@ -6,6 +6,7 @@ php:
   - 5.5
 
 before_script:
+  - cd backend
   - curl -s http://getcomposer.org/installer | php
   - php composer.phar install --dev
 
