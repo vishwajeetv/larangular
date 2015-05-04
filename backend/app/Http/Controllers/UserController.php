@@ -15,7 +15,7 @@ class UserController extends Controller {
 	 */
 	public function index()
 	{
-		return $this->respond(true,'success',null,null,null);
+		return $this->respond(true);
 	}
 
 	/**
@@ -30,7 +30,7 @@ class UserController extends Controller {
 
 	/**
 	 * Store a newly created resource in storage.
-	 * @param  StoreBlogPostRequest  $request
+	 * @param  Requests\SignUpRequest  $request
 	 * @return Response
 	 */
 	public function store(Requests\SignUpRequest $request)

@@ -26,7 +26,7 @@ abstract class Controller extends BaseController {
         }
     }
 
-    public function respond($flag, $successMessage, $failMessage, $data, $errors)
+    public function respond($flag = 'null', $successMessage = 'null', $failMessage = 'null', $data = 'null', $errors = 'null')
     {
         if ($flag) {
             return $this->generateResponse(
